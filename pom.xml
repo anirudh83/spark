@@ -128,7 +128,7 @@
     <yarn.version>${hadoop.version}</yarn.version>
     <flume.version>1.6.0</flume.version>
     <zookeeper.version>3.4.5</zookeeper.version>
-    <curator.version>2.4.0</curator.version>
+    <curator.version>5.6.0</curator.version>
     <hive.group>org.spark-project.hive</hive.group>
     <!-- Version used in Maven Hive dependency -->
     <hive.version>1.2.1.spark2</hive.version>
@@ -184,7 +184,7 @@
     <maven-antrun.version>1.8</maven-antrun.version>
 
     <test.java.home>${java.home}</test.java.home>
-    <test.exclude.tags></test.exclude.tags>
+    <test.exclude.tags/>
 
     <!-- When using different JDKs for the build, we can't use Zinc for the jdk8 part. -->
     <useZincForJdk8>true</useZincForJdk8>
@@ -2176,7 +2176,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -2189,7 +2189,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -2202,7 +2202,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -2364,7 +2364,7 @@
             </goals>
             <configuration>
               <target>
-                <mkdir dir="${project.build.directory}/tmp" />
+                <mkdir dir="${project.build.directory}/tmp"/>
               </target>
             </configuration>
           </execution>
@@ -2505,7 +2505,7 @@
         <hadoop.version>2.6.4</hadoop.version>
         <jets3t.version>0.9.3</jets3t.version>
         <zookeeper.version>3.4.6</zookeeper.version>
-        <curator.version>2.6.0</curator.version>
+        <curator.version>5.6.0</curator.version>
       </properties>
     </profile>
 
@@ -2515,7 +2515,7 @@
         <hadoop.version>2.7.2</hadoop.version>
         <jets3t.version>0.9.3</jets3t.version>
         <zookeeper.version>3.4.6</zookeeper.version>
-        <curator.version>2.6.0</curator.version>
+        <curator.version>5.6.0</curator.version>
       </properties>
     </profile>
 
